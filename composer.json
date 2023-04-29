@@ -1,0 +1,16 @@
+{
+  "name": "f00b4r/nettefly",
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "contributte/nella": "^0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}

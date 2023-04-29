@@ -1,0 +1,19 @@
+# ======================================
+# Config ===============================
+php:
+	date.timezone: Europe/Prague
+	# session.save_path: %tempDir%/session
+
+# ======================================
+# Parameters ===========================
+parameters:
+	greetings: "Flyers"
+
+# ======================================
+# Extension ============================
+extensions:
+
+# ======================================
+# Services =============================
+services:
+	- App\UI\Home\HomePresenter(%greetings%)
